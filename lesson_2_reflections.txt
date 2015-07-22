@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+- Commences the tracking of changes on any files in the repository
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+- The staging area caches individual files that can be committed.  This is useful, as you can commit a group of files.
+- The working directory is the base/location of the files.
+- The repository contains the 'committed'/versioned files.
+
