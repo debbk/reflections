@@ -6,3 +6,18 @@ How is the staging area different from the working directory and the repository?
 - The working directory is the base/location of the files.
 - The repository contains the 'committed'/versioned files.
 
+How can you use the staging area to make sure you have one commit per logical change?
+- You can run git diff (compare working directory and the staging area) and git diff --staged (repository and staging area)
+to make sure that the changes make sense, and that they encapsulate one logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+- branches are useful in creating/testing experimental features in code, when you don't want to change the master file.
+- can we used a 'development' environment instead of touching your production area
+
+How do the diagrams help you visualize the branch structure?
+- can trace where the parent file is
+- ensures you are making changes to the right branch/file
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+- when merging two branches, you retain any additions done by both branches, and lose any deletions on the parent.
+- the diagram shows how each branch relates back to the parent
