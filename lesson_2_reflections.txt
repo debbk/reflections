@@ -22,4 +22,6 @@ What is the result of merging two branches together? Why do we represent it in t
 - when merging two branches, you retain any additions done by both branches, and lose any deletions on the parent.
 - the diagram shows how each branch relates back to the parent
 
-test
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+pros (git merge) - can quickly merge any code changes that occured in the same areas of files
+cons (git merge) - will need to resolve any conflicts incurred by multi users (in different areas) manually
