@@ -21,3 +21,5 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 - when merging two branches, you retain any additions done by both branches, and lose any deletions on the parent.
 - the diagram shows how each branch relates back to the parent
+
+test
